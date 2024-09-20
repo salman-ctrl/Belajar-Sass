@@ -1,0 +1,33 @@
+// Variabel warna
+aqua: #00ffff
+salmon: #fa8072
+darkgoldenrod: #b8860b
+
+// Gaya umum untuk body
+body
+  font-family: Arial, sans-serif
+  text-align: center
+  margin: 0
+  padding: 20px
+
+// Gaya untuk kontainer
+.kontainer
+  display: flex
+  justify-content: space-around
+  padding: 20px
+  height: 300px
+
+  div
+    width: 30%
+    height: 100%
+    border-radius: 8px
+
+    // Menetapkan warna berdasarkan urutan div
+    &:nth-child(1)
+      background-color: aqua
+
+    &:nth-child(2)
+      background-color: salmon
+
+    &:nth-child(3)
+      background-color: darkgoldenrod

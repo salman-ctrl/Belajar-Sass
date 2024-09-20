@@ -1,0 +1,72 @@
+/* @font-face {
+    font-family: 'fontakuh';
+    src: url('Roboto/Roboto-BlackItalic.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'fontakuh', sans-serif;
+    width: 100%;
+}
+
+.kontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.kontainer > div {
+    width: 30%;
+    height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .kontainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .kontainer > div {
+        width: 100%; /* Atau coba 100vw jika tidak berfungsi */
+        /* height: 200px;
+    }
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .kontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 300px;
+  }
+  
+  .kontainer div {
+    width: 30%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .kontainer div:nth-child(1) {
+    background-color: #00ffff; /* aqua */
+  }
+  
+  .kontainer div:nth-child(2) {
+    background-color: #fa8072; /* salmon */
+  }
+  
+  .kontainer div:nth-child(3) {
+    background-color: #b8860b; /* darkgoldenrod */
+  }
+
